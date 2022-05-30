@@ -8,6 +8,6 @@ Progetto per Start2Impact Guida HTML&CSS
 
 Lettera presentazione:
 
-Link repo:https://github.com/DPdotexe/Start2Impact
+Link Repo:https://github.com/DPdotexe/Start2Impact
 
-Link gitpages:https://dpdotexe.github.io/Start2Impact/
+Link Gitpages:https://dpdotexe.github.io/Start2Impact/
