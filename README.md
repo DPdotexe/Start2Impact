@@ -7,12 +7,9 @@ Progetto per Start2Impact Guida HTML&CSS
 3.Enjoy!
 
 ------------------------------------------------------
+Lettera di presentazione:
 
-Lettera presentazione:
-
-Link PDF:https://drive.google.com/file/d/1Y08oWqweVjKlWPrX8sn43njt6XKudZLI/view?usp=sharing
-
-Link con presentazione:https://drive.google.com/file/d/1YIt4MxpFbtFlqzNbLCXdlB00OYYpHTkp/view?usp=sharing
+https://docs.google.com/presentation/d/1dz5tSdDuhefWIPYHigUCmtHcSXujIoMS/edit?usp=sharing&ouid=114174867472637579443&rtpof=true&sd=true
 
 --------------------------------------------------------
 
