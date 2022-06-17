@@ -15,6 +15,6 @@ https://docs.google.com/presentation/d/17Y-sjKWflYPKSZUjz8lUDYBrPdFxrTM6/edit?us
 
 Link Repo:https://github.com/DPdotexe/Start2Impact
 
-Link Gitpages:https://dpdotexe.github.io/Start2Impact/
+Link Gitpages:https://dpdotexe.github.io/
 
 --------------------------------------------------------
