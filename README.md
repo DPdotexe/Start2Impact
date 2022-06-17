@@ -6,11 +6,6 @@ Progetto per Start2Impact Guida HTML&CSS
 
 3.Enjoy!
 
-------------------------------------------------------
-Lettera di presentazione:
-
-https://docs.google.com/presentation/d/17Y-sjKWflYPKSZUjz8lUDYBrPdFxrTM6/edit?usp=sharing&ouid=114174867472637579443&rtpof=true&sd=true
-
 --------------------------------------------------------
 
 Link Repo:https://github.com/DPdotexe/dpdotexe.github.io
