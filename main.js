@@ -1,4 +1,8 @@
-
+const form = document.getElementById('contact-form')
+addEventListener('submit', function handleSubmit(event) {
+  event.preventDefault();
+  form.reset();
+});
 function sendMail() {
    let fullName = document.getElementById("name").value;
    let userEmail = document.getElementById("email_id").value;
