@@ -9,7 +9,7 @@ Progetto per Start2Impact Guida HTML&CSS
 ------------------------------------------------------
 Lettera di presentazione:
 
-https://docs.google.com/presentation/d/1dz5tSdDuhefWIPYHigUCmtHcSXujIoMS/edit?usp=sharing&ouid=114174867472637579443&rtpof=true&sd=true
+https://docs.google.com/presentation/d/17Y-sjKWflYPKSZUjz8lUDYBrPdFxrTM6/edit?usp=sharing&ouid=114174867472637579443&rtpof=true&sd=true
 
 --------------------------------------------------------
 
