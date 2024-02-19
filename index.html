@@ -8,85 +8,14 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">  
   <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/navbar.css">
+  <link rel="stylesheet" href="assets/css/home.css">
+  <link rel="stylesheet" href="assets/css/about.css">
+  <link rel="stylesheet" href="assets/css/skills.css">
+  <link rel="stylesheet" href="assets/css/portfolio.css">
+  <link rel="stylesheet" href="assets/css/contact.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
   <title>Daniele Puleri</title>
-  <style>
-    /* Add CSS for better scrolling experience */
-    html {
-      scroll-behavior: smooth;
-    }
-    /* Add CSS for skills section */
-    .skills {
-      padding: 50px 0;
-      background-color: #f7f7f7;
-      text-align: center;
-    }
-    .skills .container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 30px;
-    }
-    .skills .box {
-      background-color: #fff;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-      transition: all 0.3s ease;
-    }
-    .skills .box:hover {
-      transform: translateY(-10px);
-      box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.1);
-    }
-    .skills .box img {
-      width: 100px;
-      height: 100px;
-      object-fit: cover;
-      border-radius: 10px;
-      margin-bottom: 20px;
-    }
-    .skills .box p {
-      color: #888;
-      font-size: 16px;
-      line-height: 1.5;
-    }
-    /* Add CSS for portfolio section */
-    .portfolio {
-      padding: 50px 0;
-      background-color: #f0f0f0;
-      text-align: center;
-    }
-    .portfolio .container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 30px;
-    }
-    .portfolio .box {
-      background-color: #fff;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-      transition: all 0.3s ease;
-    }
-    .portfolio .box:hover {
-      transform: translateY(-10px);
-      box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.1);
-    }
-    .portfolio .box img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 10px;
-      margin-bottom: 20px;
-    }
-    .portfolio .box a {
-      color: #e52b50;
-      text-decoration: none;
-      font-weight: 600;
-      transition: color 0.3s ease;
-    }
-    .portfolio .box a:hover {
-      color: #d0103a;
-    }
-  </style>
 </head>
 <body>
   <header>
@@ -98,10 +27,10 @@
       </label>
       <ul class="menu">
         <li><a href="#home" class="menu-btn">Home</a></li>
-        <li><a href="about.html" class="menu-btn">About</a></li>
+        <li><a href="#about" class="menu-btn">About</a></li>
         <li><a href="#skills" class="menu-btn">Skills</a></li>
         <li><a href="#portfolio" class="menu-btn">Portfolio</a></li>
-        <li><a href="contact.html" class="menu-btn">Contact</a></li>
+        <li><a href="#contact" class="menu-btn">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -109,11 +38,12 @@
   <section class="home" id="home">
     <div class="max-width">
       <div class="home-content">
-        <div class="text-1">Hello, my name is</div>
-        <div class="text-2"><h1>Daniele Puleri</h1></div>
-        <div class="text-3">and I'm a <span class="typed-text"></span><span class="cursor">&nbsp;</span></div>
-        <br>
-        <br>
+        <div class="home-text">
+          <div class="text-1">Hello, my name is</div>
+          <div class="text-2"><h1>Daniele Puleri</h1></div>
+          <div class="text-3">and I'm a <span class="typed-text"></span><span class="cursor">&nbsp;</span></div>
+          <br>
+        </div>
         <div class="image">
           <img src="assets/images/DP.png" alt="profile pic">
         </div>
@@ -121,116 +51,187 @@
     </div>
   </section>
 
-  <section class="skills" id="skills">
-    <div class="max-width">
-      <h2 class="title">Skills</h2>
-      <div class="container">
-        <div class="box">
-          <img src="assets/images/htmlogo.png" alt="HTML Logo">
-          <p>HTML</p>
-        </div>
-        <div class="box">
-          <img src="assets/images/csslogo.png" alt="CSS Logo">
-          <p>CSS</p>
-        </div>
-        <div class="box">
-          <img src="assets/images/javascriptlogo.png" alt="JavaScript Logo">
-          <p>JavaScript</p>
-        </div>
-        <div class="box">
-          <img src="assets/images/bootstraplogo.png" alt="Bootstrap Logo">
-          <p>Bootstrap</p>
-        </div>
-        <div class="box">
-          <img src="assets/images/sasslogo.png" alt="Sass Logo">
-          <p>Sass</p>
-        </div>
-        <div class="box">
-          <img src="assets/images/reactlogo.png" alt="React Logo">
-          <p>React</p>
-        </div>
-        <div class="box">
-          <img src="assets/images/reduxlogo.png" alt="Redux Logo">
-          <p>Redux</p>
-        </div>
-        <div class="box">
-          <img src="assets/images/nodejslogo.png" alt="Node.js Logo">
-          <p>Node.js</p>
-        </div>
-        <div class="box">
-          <img src="assets/images/mongodblogo.png" alt="MongoDB Logo">
-          <p>MongoDB</p>
-        </div>
-        <div class="box">
-          <img src="assets/images/mysqlogo.png" alt="MySQL Logo">
-          <p>MySQL</p>
-        </div>
-        <div class="box">
-          <img src="assets/images/expresslogo.png" alt="Express.js Logo">
-          <p>Express.js</p>
-        </div>
-        <div class="box">
-          <img src="assets/images/webpacklogo.png" alt="Webpack Logo">
-          <p>Webpack</p>
-        </div>
-        <div class="box">
-          <img src="assets/images/sequelizelogo.svg" alt="Sequelize Logo">
-          <p>Sequelize</p>
-        </div>
-        <div class="box">
-          <img src="assets/images/gitlogo.png" alt="Git Logo">
-          <p>Git</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="max-width">
+        <h2 class="title">About Me</h2>
+        <div class="about-content">
+          <p>Hello, I'm Daniele Puleri, a Junior Full-Stack Developer with a lifelong passion for technology. From tinkering with hardware to diving into coding, I've always found joy in exploring the ever-evolving landscape of technology.
 
-<!-- Portfolio Section Styles -->
-<section class="portfolio" id="portfolio">
+            In my career, I've worked on diverse projects, honing my skills in web development, database management, and more. Now, I'm eagerly studying Angular and have plans to delve into Python and Java. I'm excited about the possibilities these technologies offer and how they can enhance my skill set.
+            
+            I thrive on creative problem-solving and value collaboration in diverse teams. Beyond coding, I enjoy gaming, reading, and experimenting in the kitchen.
+            
+            I'm committed to continuous learning and making meaningful contributions to projects that drive innovation and positive change.</p>
+        </div>
+      </div>
+    </section>
+      <!-- Skills Section -->
+    <section class="skills" id="skills">
+      <div class="max-width">
+        <h2 class="title">Skills</h2>
+        <div class="container">
+          <div class="box">
+            <img src="assets/images/htmlogo.png" alt="HTML Logo">
+            <p>HTML</p>
+          </div>
+          <div class="box">
+            <img src="assets/images/csslogo.png" alt="CSS Logo">
+            <p>CSS</p>
+          </div>
+          <div class="box">
+            <img src="assets/images/javascriptlogo.png" alt="JavaScript Logo">
+            <p>JavaScript</p>
+          </div>
+          <div class="box">
+            <img src="assets/images/bootstraplogo.png" alt="Bootstrap Logo">
+            <p>Bootstrap</p>
+          </div>
+          <div class="box">
+            <img src="assets/images/sasslogo.png" alt="Sass Logo">
+            <p>Sass</p>
+          </div>
+          <div class="box">
+            <img src="assets/images/reactlogo.png" alt="React Logo">
+            <p>React</p>
+          </div>
+          <div class="box">
+            <img src="assets/images/reduxlogo.png" alt="Redux Logo">
+            <p>Redux</p>
+          </div>
+          <div class="box">
+            <img src="assets/images/nodejslogo.png" alt="Node.js Logo">
+            <p>Node.js</p>
+          </div>
+          <div class="box">
+            <img src="assets/images/mongodblogo.png" alt="MongoDB Logo">
+            <p>MongoDB</p>
+          </div>
+          <div class="box">
+            <img src="assets/images/mysqlogo.png" alt="MySQL Logo">
+            <p>MySQL</p>
+          </div>
+          <div class="box">
+            <img src="assets/images/expresslogo.png" alt="Express.js Logo">
+            <p>Express.js</p>
+          </div>
+          <div class="box">
+            <img src="assets/images/webpacklogo.png" alt="Webpack Logo">
+            <p>Webpack</p>
+          </div>
+          <div class="box">
+            <img src="assets/images/sequelizelogo.svg" alt="Sequelize Logo">
+            <p>Sequelize</p>
+          </div>
+          <div class="box">
+            <img src="assets/images/gitlogo.png" alt="Git Logo">
+            <p>Git</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Portfolio Section Styles -->
+    <section class="portfolio" id="portfolio">
+      <div class="max-width">
+        <h2 class="title">Portfolio</h2>
+        <div class="container">
+          <div class="box">
+            <a href="https://github.com/DPdotexe/DirectPlates">
+              <img src="assets/images/directplatesminiatura.png" alt="DirectPlates">
+              <p>DirectPlates</p>
+            </a>
+          </div>
+          <div class="box">
+            <a href="https://github.com/DPdotexe/VeggieGourmet">
+              <img src="assets/images/veggiegourmet.png" alt="VeggieGourmet">
+              <p>VeggieGourmet</p>
+            </a>
+          </div>
+          <div class="box">
+            <a href="https://github.com/DPdotexe/DPs-Open-Library">
+              <img src="assets/images/dpopenlibrary.png" alt="openlibrary">
+              <p>DP's Open Library </p>
+            </a>
+          </div>
+          <div class="box">
+            <a href="https://github.com/DPdotexe/HarvestHub">
+              <img src="assets/images/harvesthub.png" alt="HarvestHub">
+              <p>HarvestHub</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- Contact Section -->
+<section class="contact" id="contact">
   <div class="max-width">
-    <h2 class="title">Portfolio</h2>
-    <div class="container">
-      <div class="box">
-        <a href="https://github.com/DPdotexe/DirectPlates">
-          <img src="assets/images/directplatesminiatura.png" alt="DirectPlates">
-          <p>DirectPlates</p>
-        </a>
+    <h2 class="title">Contact Me</h2>
+    <div class="contact-content">
+      <!-- Left Column -->
+      <div class="column left">
+        <div class="text">Get in Touch</div>
+        <p>To reach me, fill out the form on the right or connect with me below:</p>
+        <br>
+        <div class="icons">
+          <div class="col-md-3 col-sm-6">
+            <div class="col-md-12 copy"></div>
+            <ul class="social-network social-circle">
+              <li><a href="https://github.com/DPdotexe" class="icoGithub" title="Github"><i class="fa fa-github"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/danielepuleri" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <div class="box">
-        <a href="https://github.com/DPdotexe/VeggieGourmet">
-          <img src="assets/images/veggiegourmet.png" alt="VeggieGourmet">
-          <p>VeggieGourmet</p>
-        </a>
-      </div>
-      <div class="box">
-        <a href="https://github.com/DPdotexe/DPs-Open-Library">
-          <img src="assets/images/dpopenlibrary.png" alt="openlibrary">
-          <p>DPs Open Library </p>
-        </a>
-      </div>
-      <div class="box">
-        <a href="https://github.com/DPdotexe/HarvestHub">
-          <img src="assets/images/harvesthub.png" alt="HarvestHub">
-          <p>HarvestHub</p>
-        </a>
+      
+      <!-- Right Column -->
+      <div class="column right">
+        <div class="text">Message Me</div>
+        <!-- Contact Form -->
+        <form id="contact-form" action="#" class="contact-form">
+          <div class="field">
+            <input type="text" placeholder="Name" required>
+          </div>
+          <div class="field">
+            <input type="email" placeholder="Email" required>
+          </div>
+          <div class="field">
+            <input type="text" placeholder="Subject" required>
+          </div>
+          <div class="field textarea">
+            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
       </div>
     </div>
   </div>
+  <script type="text/javascript">
+    (function() {
+      emailjs.init('aZWFhGfDKVOa4iy5q');
+    })();
+  </script>
+  <script type="text/javascript">
+    window.onload = function () {
+      document.getElementById("contact-form").addEventListener("submit", function (event) {
+        event.preventDefault();
+        this.contact_number.value = Math.random() * 100000 | 0;
+        emailjs.sendForm("service_p1sl1w6", "template_886zqlh", 'aZWFhGfDKVOa4iy5q', this).then(
+          function () {
+            console.log("SUCCESS!");
+          },
+          function (error) {
+            console.log("FAILED...", error);
+          }
+        );
+      });
+    };
+  </script>
 </section>
 
 
   <!-- footer -->
   <footer>
-    <div class="col-md-3 col-sm-6">
-      <div class="col-md-12 copy"></div>
-      <h4><span>Socials</span></h4>
-      <br>
-      <ul class="social-network social-circle">
-        <li><a href="https://github.com/DPdotexe" class="icoGithub" title="Github"><i class="fa fa-github"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/danielepuleri" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-      </ul>
-    </div>
-    <br>
     <div class="row">
       <div class="col-md-12 copy">
         <span><p class="text-center">&copy; Copyright 2022 - DP. All rights reserved.</p></span>

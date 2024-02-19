@@ -1,0 +1,52 @@
+.home {
+    min-height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+  }
+  
+  .home-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Aggiunto per spaziare il contenuto */
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  
+  .home-text {
+    max-width: 600px;
+  }
+  
+  .home .text-1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .home .text-2 {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  
+  .home .text-3 {
+    font-size: 20px;
+  }
+  
+  .image img {
+    height: 300px;
+    width: auto;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image img:hover {
+    transform: scale(1.1);
+  }
+  
+  @media (max-width: 768px) {
+    .home-content {
+      flex-direction: column; /* Cambia la direzione della flessione su schermi più piccoli */
+      align-items: flex-start; /* Allinea il contenuto a sinistra su schermi più piccoli */
+    }
+  }
+  
