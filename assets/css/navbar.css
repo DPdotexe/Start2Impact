@@ -7,28 +7,29 @@ nav {
     width: 100%;
     background: #1b1b1b;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 50px 0 100px;
+    justify-content: flex-start; 
+    padding: 0 50px; 
     flex-wrap: wrap;
-  }
-  
-  nav .logo {
+}
+
+nav .logo {
     color: #e52b50;
     font-size: 35px;
     font-weight: 600;
-  }
-  
-  nav ul {
+    margin-right: auto; 
+}
+
+nav ul {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-  }
-  
-  nav ul li {
+}
+
+nav ul li {
     margin: 0 5px;
-  }
-  
-  nav ul li a {
+}
+
+nav ul li a {
     color: #e52b50;
     font-size: 18px;
     font-weight: 500;
@@ -36,75 +37,74 @@ nav {
     border-radius: 5px;
     letter-spacing: 1px;
     transition: all 0.3s ease;
-  }
-  
-  nav ul li a.active,
-  nav ul li a:hover {
+}
+
+nav ul li a.active,
+nav ul li a:hover {
     color: #e52b50;
     background: #fff;
-  }
-  
-  nav .menu-btn i {
+}
+
+nav .menu-btn i {
     color: #fff;
     font-size: 22px;
     cursor: pointer;
     display: none;
-  }
-  
-  input[type="checkbox"] {
+}
+
+input[type="checkbox"] {
     display: none;
-  }
-  
-  @media (max-width: 991px) {
+}
+
+@media (max-width: 991px) {
     nav {
-      padding: 0 40px 0 50px;
+        padding: 0 40px 0 50px;
     }
-  }
-  
-  @media (max-width: 920px) {
+}
+
+@media (max-width: 920px) {
     nav .menu-btn i {
-      display: block;
-      z-index: 999;
+        display: block;
+        z-index: 999;
     }
     #click:checked ~ .menu-btn i:before {
-      content: "\f00d";
+        content: "\f00d";
     }
     nav ul {
-      position: fixed;
-      top: 80px;
-      left: -100%;
-      background: #111;
-      height: 100vh;
-      width: 100%;
-      text-align: center;
-      display: block;
-      transition: all 0.3s ease;
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background: #111;
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        display: block;
+        transition: all 0.3s ease;
     }
     #click:checked ~ ul {
-      left: 0;
+        left: 0;
     }
     nav ul li {
-      width: 100%;
-      margin: 40px 0;
+        width: 100%;
+        margin: 40px 0;
     }
     nav ul li a {
-      width: 100%;
-      margin-left: -100%;
-      display: block;
-      font-size: 20px;
-      transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        width: 100%;
+        margin-left: -100%;
+        display: block;
+        font-size: 20px;
+        transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
     #click:checked ~ ul li a {
-      margin-left: 0px;
+        margin-left: 0px;
     }
     nav ul li a.active,
     nav ul li a:hover {
-      background: none;
-      color: white;
+        background: none;
+        color: white;
     }
-  }
-  
-  span {
+}
+
+span {
     color: #e52b50;
-  }
-  
+}
